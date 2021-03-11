@@ -1,0 +1,45 @@
+
+.social
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.social ul
+{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social ul li {
+  float: left;
+  margin: 10px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social ul li:nth-child(1){
+  background: #3939f8;
+}
+.social ul li:nth-child(2){
+  background: rgb(29, 161, 242);
+}
+
+.social ul li:nth-child(3){
+  background: red;
+}
+
+.social ul li:nth-child(4){
+  background: black;
+}
+
+.social ul li a 
+{
+  color : #fff;
+}

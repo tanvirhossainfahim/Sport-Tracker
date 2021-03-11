@@ -1,0 +1,9 @@
+.lCard {
+  border : 1px solid #ddd;
+  margin : 4px;
+  border-radius: 4px;
+}
+
+.btn-info{
+  background : #000 !important;
+}

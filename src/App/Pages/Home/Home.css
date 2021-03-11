@@ -1,0 +1,39 @@
+.bg{
+  background: #080c3c;
+}
+
+.image
+{
+  height: 230px;
+  margin-bottom: 20px;
+  
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  position: relative;
+}
+
+.image img{
+  height : 100%;
+  width : 100%;
+  position: absolute;
+}
+
+.image .title
+{
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.459);
+  color: rgba(255, 255, 255, 0.733);
+  font-size: 2.2rem;
+  font-weight: bold;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  position: absolute;
+}
+
+.selectLeague{
+  margin-bottom: 20px;
+}
+

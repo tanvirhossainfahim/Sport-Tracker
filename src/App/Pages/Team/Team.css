@@ -1,0 +1,39 @@
+.images
+{
+  height: 300px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stadium
+{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+}
+
+.logo
+{
+  width: 10%;
+  position: relative;
+  z-index: 4;
+}
+
+.wraper{
+  background: rgb(44, 22, 243);
+  border-radius: 5px;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.detail
+{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
